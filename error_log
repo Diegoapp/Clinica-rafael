@@ -1,0 +1,908 @@
+[02-May-2017 19:38:41 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 19:38:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:10:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:10:26 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:19 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:21 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:22 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:22 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:22 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:22 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:37 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:37 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:38 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:38 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:41 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:15:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:20:17 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/logar.php:21
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/logar.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/index.php(2): include('/home/guias674/...')
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:22:58 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'guias674_diego'@'localhost' to database 'guias674_clinica'' in /home/guias674/public_html/guiasadt.com/logar.php:21
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/logar.php(21): PDO->__construct('mysql:host=loca...', 'guias674_diego', '26632818')
+#1 /home/guias674/public_html/guiasadt.com/index.php(2): include('/home/guias674/...')
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[02-May-2017 21:23:08 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'guias674_diego'@'localhost' to database 'guias674_clinica'' in /home/guias674/public_html/guiasadt.com/logar.php:21
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/logar.php(21): PDO->__construct('mysql:host=loca...', 'guias674_diego', '26632818')
+#1 /home/guias674/public_html/guiasadt.com/index.php(2): include('/home/guias674/...')
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[03-May-2017 07:11:32 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'guias674_diego'@'localhost' to database 'guias674_clinica'' in /home/guias674/public_html/guiasadt.com/logar.php:21
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/logar.php(21): PDO->__construct('mysql:host=loca...', 'guias674_diego', '26632818')
+#1 /home/guias674/public_html/guiasadt.com/index.php(2): include('/home/guias674/...')
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/logar.php on line 21
+[03-May-2017 07:24:51 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 50
+[03-May-2017 07:28:22 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 07:28:31 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 07:29:13 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 07:29:24 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 07:29:26 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 07:29:27 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 07:32:23 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 07:35:35 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 07:37:43 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 44
+[03-May-2017 07:42:48 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 44
+[03-May-2017 07:45:18 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 45
+[03-May-2017 07:46:18 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 52
+[03-May-2017 07:46:18 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 68
+[03-May-2017 07:46:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:30) in /home/guias674/public_html/guiasadt.com/logar.php on line 75
+[03-May-2017 07:48:07 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 52
+[03-May-2017 07:48:07 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 68
+[03-May-2017 07:48:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:30) in /home/guias674/public_html/guiasadt.com/logar.php on line 75
+[03-May-2017 07:48:56 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 52
+[03-May-2017 07:48:56 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 68
+[03-May-2017 07:48:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:30) in /home/guias674/public_html/guiasadt.com/logar.php on line 75
+[03-May-2017 07:48:59 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 52
+[03-May-2017 07:48:59 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 68
+[03-May-2017 07:48:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:30) in /home/guias674/public_html/guiasadt.com/logar.php on line 75
+[03-May-2017 07:49:02 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 52
+[03-May-2017 07:49:02 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 68
+[03-May-2017 07:49:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:30) in /home/guias674/public_html/guiasadt.com/logar.php on line 75
+[03-May-2017 07:50:00 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:50:36 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:50:39 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:51:30 America/Chicago] PHP Fatal error:  Class name must be a valid object or a string in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 07:52:35 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:53:29 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:54:14 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:54:25 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:54:52 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:54:55 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:55:02 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:55:38 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 07:57:47 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 45
+[03-May-2017 07:57:49 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 45
+[03-May-2017 07:58:17 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 45
+[03-May-2017 08:00:59 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 44
+[03-May-2017 08:00:59 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 60
+[03-May-2017 08:00:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:44) in /home/guias674/public_html/guiasadt.com/logar.php on line 67
+[03-May-2017 08:01:18 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'guias674_diego'@'localhost' (using password: YES)' in /home/guias674/public_html/guiasadt.com/logar.php:23
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/logar.php(23): PDO->__construct('mysql:host=loca...', 'guias674_diego', '2663281')
+#1 /home/guias674/public_html/guiasadt.com/index.php(2): include('/home/guias674/...')
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/logar.php on line 23
+[03-May-2017 08:03:08 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 44
+[03-May-2017 08:03:08 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 60
+[03-May-2017 08:03:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:44) in /home/guias674/public_html/guiasadt.com/logar.php on line 67
+[03-May-2017 08:06:49 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 46
+[03-May-2017 08:06:49 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 62
+[03-May-2017 08:06:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:42) in /home/guias674/public_html/guiasadt.com/logar.php on line 69
+[03-May-2017 08:09:46 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 48
+[03-May-2017 08:09:46 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:09:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:39) in /home/guias674/public_html/guiasadt.com/logar.php on line 71
+[03-May-2017 08:10:25 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 48
+[03-May-2017 08:10:25 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:10:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:39) in /home/guias674/public_html/guiasadt.com/logar.php on line 71
+[03-May-2017 08:10:29 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 48
+[03-May-2017 08:10:29 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:10:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:39) in /home/guias674/public_html/guiasadt.com/logar.php on line 71
+[03-May-2017 08:14:57 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 42
+[03-May-2017 08:15:12 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 42
+[03-May-2017 08:16:14 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 37
+[03-May-2017 08:16:37 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 37
+[03-May-2017 08:16:40 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 37
+[03-May-2017 08:17:19 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 48
+[03-May-2017 08:17:19 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:17:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:39) in /home/guias674/public_html/guiasadt.com/logar.php on line 71
+[03-May-2017 08:18:33 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:18:33 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:18:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:26:46 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 70
+[03-May-2017 08:26:46 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:26:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:64) in /home/guias674/public_html/guiasadt.com/logar.php on line 93
+[03-May-2017 08:27:06 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 70
+[03-May-2017 08:27:06 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:27:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:64) in /home/guias674/public_html/guiasadt.com/logar.php on line 93
+[03-May-2017 08:28:14 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 70
+[03-May-2017 08:28:14 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:28:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:64) in /home/guias674/public_html/guiasadt.com/logar.php on line 93
+[03-May-2017 08:28:19 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 70
+[03-May-2017 08:28:19 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:28:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:64) in /home/guias674/public_html/guiasadt.com/logar.php on line 93
+[03-May-2017 08:28:43 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home/guias674/public_html/guiasadt.com/logar.php on line 58
+[03-May-2017 08:28:47 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home/guias674/public_html/guiasadt.com/logar.php on line 58
+[03-May-2017 08:29:05 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home/guias674/public_html/guiasadt.com/logar.php on line 58
+[03-May-2017 08:29:48 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 70
+[03-May-2017 08:29:48 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:29:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:64) in /home/guias674/public_html/guiasadt.com/logar.php on line 93
+[03-May-2017 08:30:29 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 70
+[03-May-2017 08:30:29 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:30:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:64) in /home/guias674/public_html/guiasadt.com/logar.php on line 93
+[03-May-2017 08:30:34 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 70
+[03-May-2017 08:30:34 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:30:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:64) in /home/guias674/public_html/guiasadt.com/logar.php on line 93
+[03-May-2017 08:33:08 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:33:08 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 80
+[03-May-2017 08:33:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:57) in /home/guias674/public_html/guiasadt.com/logar.php on line 87
+[03-May-2017 08:33:14 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:33:14 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 80
+[03-May-2017 08:33:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:57) in /home/guias674/public_html/guiasadt.com/logar.php on line 87
+[03-May-2017 08:33:29 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 63
+[03-May-2017 08:33:29 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 79
+[03-May-2017 08:33:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:63) in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:35:50 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 63
+[03-May-2017 08:35:50 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 79
+[03-May-2017 08:35:50 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:58) in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:35:55 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 63
+[03-May-2017 08:35:55 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 79
+[03-May-2017 08:35:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:58) in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:36:18 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 63
+[03-May-2017 08:36:18 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 79
+[03-May-2017 08:36:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:58) in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:37:05 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 63
+[03-May-2017 08:37:05 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 79
+[03-May-2017 08:37:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:58) in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:37:21 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 63
+[03-May-2017 08:37:21 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 79
+[03-May-2017 08:37:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:58) in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:38:22 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, integer given in /home/guias674/public_html/guiasadt.com/logar.php on line 63
+[03-May-2017 08:38:22 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 79
+[03-May-2017 08:38:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:58) in /home/guias674/public_html/guiasadt.com/logar.php on line 86
+[03-May-2017 08:44:30 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home/guias674/public_html/guiasadt.com/logar.php on line 54
+[03-May-2017 08:44:43 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home/guias674/public_html/guiasadt.com/logar.php on line 54
+[03-May-2017 08:45:06 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home/guias674/public_html/guiasadt.com/logar.php on line 54
+[03-May-2017 08:46:18 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home/guias674/public_html/guiasadt.com/logar.php on line 54
+[03-May-2017 08:46:22 America/Chicago] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home/guias674/public_html/guiasadt.com/logar.php on line 54
+[03-May-2017 08:46:35 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:46:35 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:46:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:47:22 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:47:22 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:47:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:47:23 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:47:23 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:47:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:49:24 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 08:49:24 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 08:49:24 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 08:49:31 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 08:49:31 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 08:49:31 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 08:50:32 America/Chicago] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 08:51:42 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:51:42 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:51:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:52:58 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:52:58 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:52:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:53:01 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:53:01 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:53:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:53:11 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:53:11 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:53:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:53:45 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:53:45 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:53:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:54:06 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:54:06 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:54:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 08:54:19 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 08:54:19 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 08:54:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 09:03:58 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 41
+[03-May-2017 09:03:58 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 57
+[03-May-2017 09:03:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:41) in /home/guias674/public_html/guiasadt.com/logar.php on line 64
+[03-May-2017 09:04:43 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 09:07:14 America/Chicago] PHP Fatal error:  Call to a member function select_db() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 09:07:20 America/Chicago] PHP Fatal error:  Call to a member function select_db() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 09:08:38 America/Chicago] PHP Fatal error:  Call to undefined method PDO::select_db() in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 09:08:54 America/Chicago] PHP Fatal error:  Call to undefined method PDO::select_db() in /home/guias674/public_html/guiasadt.com/logar.php on line 24
+[03-May-2017 09:10:17 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 32
+[03-May-2017 09:11:14 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 32
+[03-May-2017 09:13:19 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/guias674/public_html/guiasadt.com/logar.php on line 32
+[03-May-2017 09:21:12 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/guiasadt.com/logar.php on line 31
+[03-May-2017 09:21:44 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/guias674/public_html/guiasadt.com/logar.php on line 36
+[03-May-2017 09:21:44 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/guias674/public_html/guiasadt.com/logar.php on line 52
+[03-May-2017 09:21:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guias674/public_html/guiasadt.com/logar.php:33) in /home/guias674/public_html/guiasadt.com/logar.php on line 59
+[03-May-2017 09:22:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 3
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 3
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 6
+[03-May-2017 09:22:26 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 9
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 9
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 9
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 10
+[03-May-2017 09:22:26 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 13
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 13
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 13
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 14
+[03-May-2017 09:22:26 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 19
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 19
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 19
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 20
+[03-May-2017 09:22:26 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 23
+[03-May-2017 09:22:26 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/guias674/public_html/guiasadt.com/contagens.php:3) in /home/guias674/public_html/guiasadt.com/inicio.php on line 5
+[03-May-2017 09:22:32 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 3
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 3
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 6
+[03-May-2017 09:22:32 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 9
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 9
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 9
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 10
+[03-May-2017 09:22:32 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 13
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 13
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 13
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 14
+[03-May-2017 09:22:32 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 19
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 19
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 19
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 20
+[03-May-2017 09:22:32 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 23
+[03-May-2017 09:22:32 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/guias674/public_html/guiasadt.com/contagens.php:3) in /home/guias674/public_html/guiasadt.com/inicio.php on line 5
+[03-May-2017 09:26:28 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 3
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 3
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 6
+[03-May-2017 09:26:28 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 9
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 9
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 9
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 10
+[03-May-2017 09:26:28 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 13
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 13
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 13
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 14
+[03-May-2017 09:26:28 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 19
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 19
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 19
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 20
+[03-May-2017 09:26:28 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 23
+[03-May-2017 09:26:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/guias674/public_html/guiasadt.com/contagens.php:3) in /home/guias674/public_html/guiasadt.com/inicio.php on line 5
+[03-May-2017 09:40:54 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 21
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 21
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 21
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:40:54 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 27
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 27
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 27
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 28
+[03-May-2017 09:40:54 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 30
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 30
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 30
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 31
+[03-May-2017 09:40:54 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/guias674/public_html/guiasadt.com/contagens.php:21) in /home/guias674/public_html/guiasadt.com/inicio.php on line 5
+[03-May-2017 09:42:06 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/contagens.php on line 22
+[03-May-2017 09:42:06 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 27
+[03-May-2017 09:42:06 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 27
+[03-May-2017 09:42:06 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 27
+[03-May-2017 09:42:06 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 28
+[03-May-2017 09:42:06 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 30
+[03-May-2017 09:42:06 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 30
+[03-May-2017 09:42:06 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 30
+[03-May-2017 09:42:06 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 31
+[03-May-2017 09:42:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/guias674/public_html/guiasadt.com/contagens.php:22) in /home/guias674/public_html/guiasadt.com/inicio.php on line 5
+[03-May-2017 09:42:30 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 27
+[03-May-2017 09:42:30 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 27
+[03-May-2017 09:42:30 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 27
+[03-May-2017 09:42:30 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 28
+[03-May-2017 09:42:30 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/contagens.php on line 30
+[03-May-2017 09:42:30 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/contagens.php on line 30
+[03-May-2017 09:42:30 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/contagens.php on line 30
+[03-May-2017 09:42:30 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/contagens.php on line 31
+[03-May-2017 09:42:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/guias674/public_html/guiasadt.com/contagens.php:27) in /home/guias674/public_html/guiasadt.com/inicio.php on line 5
+[03-May-2017 09:43:40 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/medicos.php(286): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 09:45:30 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/cbo.php(284): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 09:51:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/medicos.php(286): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 09:51:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/medicos.php(286): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 09:52:35 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/cbo.php(284): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 09:52:36 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/medicos.php(286): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 09:56:08 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/cbo.php(284): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 09:56:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/convenios.php(287): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 09:59:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/medicos.php(286): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 10:10:56 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:14
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/guias674/public_html/guiasadt.com/clientes.php(300): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 14
+[03-May-2017 10:12:07 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'guias674_diego'@'localhost' to database 'clinica'' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:22
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(22): PDO->__construct('mysql:host=loca...', 'guias674_diego', '26632818')
+#1 /home/guias674/public_html/guiasadt.com/clientes.php(300): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 22
+[03-May-2017 10:12:08 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'guias674_diego'@'localhost' to database 'clinica'' in /home/guias674/public_html/guiasadt.com/classe/conexao.php:22
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/classe/conexao.php(22): PDO->__construct('mysql:host=loca...', 'guias674_diego', '26632818')
+#1 /home/guias674/public_html/guiasadt.com/clientes.php(300): conexao->conectar()
+#2 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/classe/conexao.php on line 22
+[03-May-2017 10:12:34 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:12:34 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:12:34 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:12:34 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/clientes.php on line 319
+[03-May-2017 10:13:38 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:13:38 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:13:38 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:13:38 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/clientes.php on line 319
+[03-May-2017 10:13:41 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:13:41 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:13:41 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:13:41 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:13:42 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/cbo.php on line 295
+[03-May-2017 10:13:42 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/cbo.php on line 295
+[03-May-2017 10:13:42 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/cbo.php on line 295
+[03-May-2017 10:13:42 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/cbo.php on line 301
+[03-May-2017 10:13:43 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:13:43 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:13:43 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:13:43 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:13:43 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:13:43 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:13:43 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:13:43 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:13:44 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/cbo.php on line 295
+[03-May-2017 10:13:44 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/cbo.php on line 295
+[03-May-2017 10:13:44 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/cbo.php on line 295
+[03-May-2017 10:13:44 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/cbo.php on line 301
+[03-May-2017 10:13:44 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:13:44 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:13:44 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:13:44 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/clientes.php on line 319
+[03-May-2017 10:13:46 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:13:46 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:13:46 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/clientes.php on line 312
+[03-May-2017 10:13:46 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/clientes.php on line 319
+[03-May-2017 10:17:01 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 10:17:14 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 10:23:29 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:23:29 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:23:29 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:23:29 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:23:31 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:23:31 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:23:31 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:23:31 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:30:53 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:30:53 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:30:53 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:30:53 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:31:10 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:31:10 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:31:10 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:31:10 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:35:40 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:35:40 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:35:40 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:35:40 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:35:41 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/cbo.php on line 295
+[03-May-2017 10:35:41 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/cbo.php on line 295
+[03-May-2017 10:35:41 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/cbo.php on line 295
+[03-May-2017 10:35:41 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/cbo.php on line 301
+[03-May-2017 10:35:42 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:35:42 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:35:42 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:35:42 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:42:14 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:42:14 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:42:14 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:42:14 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:43:26 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:43:26 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:43:26 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:43:26 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:43:34 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:43:34 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:43:34 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:43:34 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:48:34 America/Chicago] PHP Warning:  PDOStatement::fetch() expects parameter 1 to be long, object given in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 10:54:53 America/Chicago] PHP Warning:  PDOStatement::fetch() expects parameter 1 to be long, object given in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 10:56:37 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:56:37 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:56:37 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:56:37 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:56:47 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:56:47 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:56:47 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 10:56:47 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 10:56:49 America/Chicago] PHP Warning:  PDOStatement::fetch() expects parameter 1 to be long, object given in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 10:58:52 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/guias674/public_html/guiasadt.com/clientes.php on line 351
+[03-May-2017 10:59:05 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/guias674/public_html/guiasadt.com/clientes.php on line 351
+[03-May-2017 10:59:05 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/guias674/public_html/guiasadt.com/clientes.php on line 351
+[03-May-2017 10:59:34 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::fetch_assoc() in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 10:59:53 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::fetch_assoc() in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 10:59:56 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::fetch_assoc() in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 10:59:57 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::fetch_assoc() in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 10:59:57 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::fetch_assoc() in /home/guias674/public_html/guiasadt.com/clientes.php on line 320
+[03-May-2017 11:01:22 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 11:01:22 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 11:01:22 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/guiasadt.com/medicos.php on line 297
+[03-May-2017 11:01:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/guiasadt.com/medicos.php on line 303
+[03-May-2017 11:02:02 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/novocliente.php:298
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/novocliente.php(298): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/novocliente.php on line 298
+[03-May-2017 11:02:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/guiasadt.com/novocliente.php:298
+Stack trace:
+#0 /home/guias674/public_html/guiasadt.com/novocliente.php(298): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/guiasadt.com/novocliente.php on line 298
+[03-May-2017 11:46:57 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:46:57 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:46:57 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:46:57 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 11:46:58 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:46:58 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:46:58 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:46:58 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 11:47:19 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:47:19 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:47:19 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:47:19 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 11:48:10 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:48:10 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:48:10 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:48:10 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 11:51:49 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:51:49 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:51:49 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 11:51:49 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 17:30:43 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 17:30:43 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 17:30:43 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 17:30:43 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 17:30:47 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 17:30:47 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 17:30:47 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 17:30:47 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 17:37:05 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/novocliente.php:298
+Stack trace:
+#0 /home/guias674/public_html/novocliente.php(298): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/novocliente.php on line 298
+[03-May-2017 17:38:13 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 135
+[03-May-2017 17:38:13 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 135
+[03-May-2017 17:38:13 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/editaclientes.php on line 139
+[03-May-2017 17:38:13 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/editaclientes.php:185
+Stack trace:
+#0 /home/guias674/public_html/editaclientes.php(185): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/editaclientes.php on line 185
+[03-May-2017 17:39:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/viewclientes.php on line 79
+[03-May-2017 17:39:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/viewclientes.php on line 79
+[03-May-2017 17:39:44 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/viewclientes.php on line 83
+[03-May-2017 17:41:17 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/viewclientes.php on line 79
+[03-May-2017 17:41:17 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/viewclientes.php on line 79
+[03-May-2017 17:41:17 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/viewclientes.php on line 83
+[03-May-2017 17:45:40 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 17:45:40 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 17:45:40 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 17:45:40 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 17:47:01 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/guias674/public_html/viewclientes.php on line 86
+[03-May-2017 17:47:01 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/viewclientes.php on line 98
+[03-May-2017 17:47:33 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/viewclientes.php on line 96
+[03-May-2017 17:47:44 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/viewclientes.php on line 96
+[03-May-2017 17:47:52 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/viewclientes.php on line 96
+[03-May-2017 17:49:30 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/viewclientes.php on line 92
+[03-May-2017 17:49:35 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/viewclientes.php on line 92
+[03-May-2017 17:55:00 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/viewclientes.php on line 95
+[03-May-2017 18:05:02 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/viewclientes.php on line 95
+[03-May-2017 18:05:23 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home/guias674/public_html/viewclientes.php on line 95
+[03-May-2017 18:08:04 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 18:08:04 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 18:08:04 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 18:08:04 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 18:10:01 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 18:10:01 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 18:10:01 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 18:10:01 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 18:13:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/novocliente.php:298
+Stack trace:
+#0 /home/guias674/public_html/novocliente.php(298): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/novocliente.php on line 298
+[03-May-2017 18:19:42 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 18:19:42 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 18:19:42 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 18:19:42 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[03-May-2017 18:19:52 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 18:19:52 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 18:19:52 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 18:19:52 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[03-May-2017 18:43:18 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 18:43:18 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 18:43:18 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 18:43:18 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[03-May-2017 18:46:42 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 135
+[03-May-2017 18:46:42 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 135
+[03-May-2017 18:46:42 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/editaclientes.php on line 139
+[03-May-2017 18:46:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/editaclientes.php:185
+Stack trace:
+#0 /home/guias674/public_html/editaclientes.php(185): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/editaclientes.php on line 185
+[03-May-2017 18:49:20 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 135
+[03-May-2017 18:49:20 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 135
+[03-May-2017 18:49:20 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/editaclientes.php on line 139
+[03-May-2017 18:49:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/editaclientes.php:185
+Stack trace:
+#0 /home/guias674/public_html/editaclientes.php(185): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/editaclientes.php on line 185
+[03-May-2017 18:49:37 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 135
+[03-May-2017 18:49:37 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 135
+[03-May-2017 18:49:37 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/editaclientes.php on line 139
+[03-May-2017 18:49:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/editaclientes.php:185
+Stack trace:
+#0 /home/guias674/public_html/editaclientes.php(185): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/editaclientes.php on line 185
+[03-May-2017 19:01:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 142
+[03-May-2017 19:01:06 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 142
+[03-May-2017 19:01:06 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/editaclientes.php on line 146
+[03-May-2017 19:01:06 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/editaclientes.php:192
+Stack trace:
+#0 /home/guias674/public_html/editaclientes.php(192): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/editaclientes.php on line 192
+[03-May-2017 19:07:46 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 142
+[03-May-2017 19:07:46 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 142
+[03-May-2017 19:07:46 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/editaclientes.php on line 146
+[03-May-2017 19:07:46 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/editaclientes.php:192
+Stack trace:
+#0 /home/guias674/public_html/editaclientes.php(192): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/editaclientes.php on line 192
+[03-May-2017 19:37:11 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 157
+[03-May-2017 19:37:11 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 157
+[03-May-2017 19:37:11 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/editaclientes.php on line 157
+[03-May-2017 19:37:11 America/Chicago] PHP Fatal error:  Call to a member function fetch() on boolean in /home/guias674/public_html/editaclientes.php on line 163
+[03-May-2017 20:03:36 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 157
+[03-May-2017 20:03:36 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 157
+[03-May-2017 20:03:36 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/editaclientes.php on line 157
+[03-May-2017 20:03:36 America/Chicago] PHP Fatal error:  Call to a member function fetch() on boolean in /home/guias674/public_html/editaclientes.php on line 163
+[03-May-2017 20:04:56 America/Chicago] PHP Fatal error:  Call to a member function fetch() on null in /home/guias674/public_html/editaclientes.php on line 163
+[03-May-2017 20:06:54 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:06:54 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:06:54 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:13:32 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:13:32 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:13:32 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:17:17 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:17:17 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:17:17 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:17:27 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:17:27 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:17:27 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:20:06 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:20:06 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:20:06 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/editaclientes.php on line 50
+[03-May-2017 20:30:09 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 20:30:09 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 20:30:09 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 20:30:09 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 20:30:15 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/novocliente.php:298
+Stack trace:
+#0 /home/guias674/public_html/novocliente.php(298): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/novocliente.php on line 298
+[03-May-2017 20:43:47 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/novocliente.php on line 38
+[03-May-2017 20:43:47 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/novocliente.php on line 38
+[03-May-2017 20:43:47 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/novocliente.php on line 38
+[03-May-2017 21:08:08 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:08:08 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:08:08 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:08:08 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 21:09:02 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/novocliente.php on line 38
+[03-May-2017 21:09:02 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/novocliente.php on line 38
+[03-May-2017 21:09:02 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/novocliente.php on line 38
+[03-May-2017 21:11:30 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/convenios.php on line 298
+[03-May-2017 21:11:30 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/convenios.php on line 298
+[03-May-2017 21:11:30 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/convenios.php on line 298
+[03-May-2017 21:11:30 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/convenios.php on line 304
+[03-May-2017 21:11:31 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:11:31 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:11:31 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:11:31 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[03-May-2017 21:11:31 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:11:31 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:11:31 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:11:31 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[03-May-2017 21:11:32 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:11:32 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:11:32 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:11:32 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 21:11:32 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/convenios.php on line 298
+[03-May-2017 21:11:32 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/convenios.php on line 298
+[03-May-2017 21:11:32 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/convenios.php on line 298
+[03-May-2017 21:11:32 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/convenios.php on line 304
+[03-May-2017 21:12:12 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 21:12:12 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 21:12:12 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[03-May-2017 21:12:12 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[03-May-2017 21:12:30 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:12:30 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:12:30 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:12:30 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 21:12:35 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:12:35 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:12:35 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:12:35 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[03-May-2017 21:12:40 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/convenios.php on line 298
+[03-May-2017 21:12:40 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/convenios.php on line 298
+[03-May-2017 21:12:40 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/convenios.php on line 298
+[03-May-2017 21:12:40 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/convenios.php on line 304
+[03-May-2017 21:12:44 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:12:44 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:12:44 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:12:44 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[03-May-2017 21:13:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/configuracao.php on line 306
+[03-May-2017 21:13:06 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/configuracao.php on line 306
+[03-May-2017 21:13:06 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/configuracao.php on line 307
+[03-May-2017 21:14:05 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:14:05 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:14:05 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[03-May-2017 21:14:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[03-May-2017 21:14:17 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:14:17 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:14:17 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[03-May-2017 21:14:17 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[05-May-2017 09:48:02 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 09:48:02 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 09:48:02 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 09:48:02 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[05-May-2017 09:48:05 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 09:48:05 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 09:48:05 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 09:48:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[05-May-2017 10:10:05 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 10:10:05 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 10:10:05 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 10:10:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[05-May-2017 10:10:10 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 10:10:10 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 10:10:10 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medicos.php on line 297
+[05-May-2017 10:10:10 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medicos.php on line 303
+[05-May-2017 10:11:50 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/guias674/public_html/medicos.php on line 303
+[05-May-2017 10:22:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/viewmedico.php on line 91
+[05-May-2017 10:22:04 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/viewmedico.php on line 91
+[05-May-2017 10:22:04 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/viewmedico.php on line 95
+[05-May-2017 10:24:26 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[05-May-2017 10:24:27 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[05-May-2017 10:24:27 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[05-May-2017 10:24:27 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[05-May-2017 10:27:50 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/novomedico.php:351
+Stack trace:
+#0 /home/guias674/public_html/novomedico.php(351): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/novomedico.php on line 351
+[05-May-2017 10:28:12 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/viewmedico.php on line 91
+[05-May-2017 10:28:12 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/viewmedico.php on line 91
+[05-May-2017 10:28:12 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/viewmedico.php on line 95
+[05-May-2017 10:29:14 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/viewmedico.php on line 91
+[05-May-2017 10:29:14 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/viewmedico.php on line 91
+[05-May-2017 10:29:14 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/viewmedico.php on line 95
+[05-May-2017 10:32:37 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[05-May-2017 10:32:37 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[05-May-2017 10:32:37 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[05-May-2017 10:32:37 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[05-May-2017 10:41:28 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[05-May-2017 10:41:28 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[05-May-2017 10:41:28 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[05-May-2017 10:41:28 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[08-May-2017 21:30:30 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:30 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:30 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:30 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[08-May-2017 21:30:31 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:31 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:31 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:31 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[08-May-2017 21:30:34 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[08-May-2017 21:30:34 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[08-May-2017 21:30:34 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[08-May-2017 21:30:34 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[08-May-2017 21:30:49 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:49 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:49 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:49 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[08-May-2017 21:30:50 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/convenios.php on line 298
+[08-May-2017 21:30:50 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/convenios.php on line 298
+[08-May-2017 21:30:50 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/convenios.php on line 298
+[08-May-2017 21:30:50 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/convenios.php on line 304
+[08-May-2017 21:30:50 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/convenios.php on line 298
+[08-May-2017 21:30:50 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/convenios.php on line 298
+[08-May-2017 21:30:50 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/convenios.php on line 298
+[08-May-2017 21:30:50 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/convenios.php on line 304
+[08-May-2017 21:30:51 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:51 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:51 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:30:51 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[08-May-2017 21:31:14 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:31:14 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:31:14 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[08-May-2017 21:31:14 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[08-May-2017 21:32:00 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/convenios.php on line 298
+[08-May-2017 21:32:00 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/convenios.php on line 298
+[08-May-2017 21:32:00 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/convenios.php on line 298
+[08-May-2017 21:32:00 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/convenios.php on line 304
+[14-May-2017 20:14:55 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[14-May-2017 20:14:55 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[14-May-2017 20:14:55 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[14-May-2017 20:14:55 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[14-May-2017 20:15:14 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[14-May-2017 20:15:14 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[14-May-2017 20:15:14 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[14-May-2017 20:15:14 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[14-May-2017 20:15:15 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[14-May-2017 20:15:15 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[14-May-2017 20:15:15 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[14-May-2017 20:15:15 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[14-May-2017 20:15:59 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/viewmedico.php on line 91
+[14-May-2017 20:15:59 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/viewmedico.php on line 91
+[14-May-2017 20:15:59 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/viewmedico.php on line 95
+[14-May-2017 20:22:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/novomedico.php:351
+Stack trace:
+#0 /home/guias674/public_html/novomedico.php(351): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/novomedico.php on line 351
+[14-May-2017 20:22:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/novomedico.php:351
+Stack trace:
+#0 /home/guias674/public_html/novomedico.php(351): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/novomedico.php on line 351
+[14-May-2017 20:22:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/viewmedico.php on line 91
+[14-May-2017 20:22:30 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/viewmedico.php on line 91
+[14-May-2017 20:22:30 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/viewmedico.php on line 95
+[14-May-2017 20:22:32 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/editamedico.php on line 143
+[14-May-2017 20:22:32 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/editamedico.php on line 143
+[14-May-2017 20:22:32 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/editamedico.php on line 147
+[14-May-2017 20:22:35 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/guias674/public_html/novomedico.php:351
+Stack trace:
+#0 /home/guias674/public_html/novomedico.php(351): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/guias674/public_html/novomedico.php on line 351
+[14-May-2017 20:22:48 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/procedimento.php on line 296
+[14-May-2017 20:22:48 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/procedimento.php on line 296
+[14-May-2017 20:22:48 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/procedimento.php on line 296
+[14-May-2017 20:22:48 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/procedimento.php on line 302
+[14-May-2017 20:22:53 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/procedimento.php on line 296
+[14-May-2017 20:22:53 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/procedimento.php on line 296
+[14-May-2017 20:22:53 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/procedimento.php on line 296
+[14-May-2017 20:22:53 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/procedimento.php on line 302
+[14-May-2017 20:22:57 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/configuracao.php on line 306
+[14-May-2017 20:22:57 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/configuracao.php on line 306
+[14-May-2017 20:22:57 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/configuracao.php on line 307
+[14-May-2017 20:26:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/configuracao.php on line 306
+[14-May-2017 20:26:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/guias674/public_html/configuracao.php on line 306
+[14-May-2017 20:26:44 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/guias674/public_html/configuracao.php on line 307
+[24-May-2017 13:08:19 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:08:19 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:08:19 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:08:19 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[24-May-2017 13:08:30 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:08:30 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:08:30 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:08:30 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[24-May-2017 13:08:43 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:08:43 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:08:43 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:08:43 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[24-May-2017 13:17:43 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:17:43 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:17:43 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:17:43 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[24-May-2017 13:17:53 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:17:53 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:17:53 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:17:53 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[24-May-2017 13:18:04 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:05 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:05 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[24-May-2017 13:18:17 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:17 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:17 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:17 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[24-May-2017 13:18:27 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:27 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:27 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:27 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[24-May-2017 13:18:37 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:37 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:37 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/medico_atendimentoview.php on line 295
+[24-May-2017 13:18:37 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/medico_atendimentoview.php on line 301
+[24-May-2017 13:19:16 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/novocliente.php on line 38
+[24-May-2017 13:19:16 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/novocliente.php on line 38
+[24-May-2017 13:19:16 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/novocliente.php on line 38
+[24-May-2017 19:02:43 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:02:43 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:02:43 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:02:43 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[24-May-2017 19:02:44 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:02:44 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:02:44 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:02:44 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[24-May-2017 19:10:24 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:10:24 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:10:24 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:10:24 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
+[24-May-2017 19:10:29 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:10:29 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'guias674'@'localhost' (using password: NO) in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:10:29 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/guias674/public_html/cbo.php on line 295
+[24-May-2017 19:10:29 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/guias674/public_html/cbo.php on line 301
